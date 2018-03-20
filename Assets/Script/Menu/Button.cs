@@ -56,7 +56,7 @@ public class Button : MonoBehaviour {
 	IEnumerator WaitAnimation ()
 	{
 		yield return new WaitForSeconds (2f);
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene(2);
 	}
 
 	public void returntoMenu()

@@ -7,7 +7,7 @@ public class Cubedrag : MonoBehaviour {
 
 	public Rigidbody rb;
 	public Rigidbody hook;
-	public float MaxDragDistance=2f;
+	public float MaxDragDistance=5f;
 
 	public float releaseTime=0.15f;
 	private bool isPressed=false;
@@ -44,13 +44,12 @@ public class Cubedrag : MonoBehaviour {
 	void OnMouseDown()
 	{
 		isPressed = true;
-		rb.isKinematic = true;
+
 	}
 
 	void OnMouseUp()
 	{
 		isPressed = false;
-		rb.isKinematic = false;
 		StartCoroutine (Release ());
 	}
 
@@ -60,7 +59,6 @@ public class Cubedrag : MonoBehaviour {
 	{
 		yield return new WaitForSeconds (releaseTime);
 
-		GetComponent<SpringJoint2D>().enabled = false;
 		this.enabled = false;
 
 		yield return new WaitForSeconds (0.2f);

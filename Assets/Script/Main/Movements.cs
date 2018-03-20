@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movements : MonoBehaviour {
 
 	public bool roller=false;
-	public float playerJumpPower=1000;
+	public float playerJumpPower=50;
 	public bool changecamera=false;
 	public GameObject Cage1;
 	public GameObject Cage2;
 	public Animator animationlogo;
+	public GameObject Logo;
+
 
 	void OnCollisionStay2D(Collision2D coll){
 
@@ -22,9 +25,21 @@ public class Movements : MonoBehaviour {
 			Cage1.SetActive(true);
 			Cage2.SetActive(true);
 			animationlogo.SetBool ("IsCaged", true);
+			StartCoroutine( Fadeoff ());
 			}
 			
 	}
+
+	IEnumerator Fadeoff()
+	{
+		yield return new WaitForSeconds (1f);
+		gameObject.SetActive(false);
+		Logo.SetActive (true);
+
+
+	}
+
+
 
 
 
