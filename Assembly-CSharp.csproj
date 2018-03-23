@@ -49,21 +49,25 @@
      <Compile Include="Assets\Script\Breakout\BallBreakout.cs" />
      <Compile Include="Assets\Script\Breakout\Palette.cs" />
      <Compile Include="Assets\Script\Donkey\DonkeyCollider.cs" />
+     <Compile Include="Assets\Script\Donkey\Donkeyending.cs" />
      <Compile Include="Assets\Script\Machine\Camerafollowmachine.cs" />
      <Compile Include="Assets\Script\Machine\CamerasChanging.cs" />
      <Compile Include="Assets\Script\Machine\Cubedrag.cs" />
      <Compile Include="Assets\Script\Machine\MachineEvents.cs" />
+     <Compile Include="Assets\Script\Machine\StartingButton.cs" />
      <Compile Include="Assets\Script\Main\CameraFollow.cs" />
      <Compile Include="Assets\Script\Main\GotoMenu.cs" />
      <Compile Include="Assets\Script\Main\MoveUP.cs" />
      <Compile Include="Assets\Script\Main\Movements.cs" />
      <Compile Include="Assets\Script\Main\Rope.cs" />
      <Compile Include="Assets\Script\Main\RopeCutter.cs" />
+     <Compile Include="Assets\Script\Main\SkipButton.cs" />
      <Compile Include="Assets\Script\Main\TriggerCollider.cs" />
      <Compile Include="Assets\Script\Main\Triggers2.cs" />
      <Compile Include="Assets\Script\Main\Weight.cs" />
      <Compile Include="Assets\Script\Menu\Button.cs" />
      <Compile Include="Assets\Script\Menu\OptionsMenu.cs" />
+     <Compile Include="Assets\Script\Tetris\DestroyTetris.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

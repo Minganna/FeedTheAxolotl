@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class DonkeyCollider : MonoBehaviour {
 
+	public Animator Barrel;
+	public GameObject FireBall;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -20,8 +23,16 @@ public class DonkeyCollider : MonoBehaviour {
 			GetComponent<Rigidbody2D> ().AddForce (Vector3.right * 100);
 		}
 			if (coll.gameObject.tag == "DonkeyPlatform2") {
-			GetComponent<Rigidbody2D> ().AddForce (Vector3.left * 300);
+			GetComponent<Rigidbody2D> ().AddForce (Vector3.left * 100);
 			}
 
+		if (coll.gameObject.tag == "Oil") {
+			FireBall.SetActive (true);
+			gameObject.SetActive(false);
+			Barrel.SetBool ("Isflame", true);
+		}
+
 	}
+
+
 }

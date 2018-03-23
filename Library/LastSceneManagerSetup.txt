@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scene/Donkey.unity
+- path: Assets/_Scene/Tetris.unity
   isLoaded: 1
   isActive: 1
