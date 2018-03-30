@@ -17,13 +17,13 @@ public class DonkeyCollider : MonoBehaviour {
 		
 	}
 
-	void OnCollisionEnter2D (Collision2D coll)
+	void OnCollisionStay2D (Collision2D coll)
 	{
 		if (coll.gameObject.tag == "DonkeyPlatform1") {
-			GetComponent<Rigidbody2D> ().AddForce (Vector3.right * 100);
+			GetComponent<Rigidbody2D> ().AddForce (Vector3.right * 10);
 		}
 			if (coll.gameObject.tag == "DonkeyPlatform2") {
-			GetComponent<Rigidbody2D> ().AddForce (Vector3.left * 100);
+			GetComponent<Rigidbody2D> ().AddForce (Vector3.left * 10);
 			}
 
 		if (coll.gameObject.tag == "Oil") {

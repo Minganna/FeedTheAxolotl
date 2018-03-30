@@ -29,6 +29,6 @@ public class Donkeyending : MonoBehaviour {
 		Flame.SetBool ("Isover", true);
 		Rope.SetBool ("burning", true);
 		yield return new WaitForSeconds (0.5f);
-		SceneManager.LoadScene ("Donkey");
+		SceneManager.LoadScene ("Tetris");
 	}
 }

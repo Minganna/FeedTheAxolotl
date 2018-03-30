@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DestroyTetris : MonoBehaviour {
 
+	public Animator Destroyer;
+	public GameObject TetrisPieces;
 	// Use this for initialization
 	void Start () {
 		
@@ -16,8 +18,12 @@ public class DestroyTetris : MonoBehaviour {
 	void OnCollisionEnter (Collision coll)
 	{
 		if (coll.gameObject.tag == "FloorTetris") {
-			Debug.log ("touch");
+			Destroyer.SetBool ("IsDisappearing", true);
+
+
 		}
 
 	}
+
+
 }
