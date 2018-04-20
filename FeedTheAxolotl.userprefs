@@ -1,7 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Machine\MachineEvents.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Zelda\Arrowlink.cs">
     <Files>
+      <File FileName="Assets\Script\BubbleBobble\CilinderMover.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\Pokemon\DialogueStarter.cs" Line="1" Column="1" />
       <File FileName="..\..\..\Unity Assessment\GDPL-Assessment2\Assets\Script\Main\Layers.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\Main\Movements.cs" Line="1" Column="1" />
@@ -9,8 +10,29 @@
       <File FileName="Assets\Script\Pokemon\Dialogue.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\DuckHunt\FlyingDuck.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\Donkey\DonkeyCollider.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Machine\MachineEvents.cs" Line="86" Column="58" />
+      <File FileName="Assets\Script\Machine\MachineEvents.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\Pokemon\Pokeball.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\BubbleBobble\PokeBallMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Machine\Camerafollowmachine.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\BubbleBobble\BubbleBobblefollowing.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\BubbleBobble\Ballappear.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\BubbleBobble\Bubble.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Machine\CamerasChanging.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\BubbleBobble\twodbubble.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Kirby\BubbleKirby.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\AxolotlFacemenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Breakout\BallBreakout.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\Button.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Pokemon\ActualDialogue.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Kirby\Kirbymovements.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\GamesRotating.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Kirby\FlyingDedede.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Kirby\KirbyStar.cs" Line="41" Column="4" />
+      <File FileName="Assets\Script\RealWorld\AxolotlBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Zelda\StarZelda.cs" Line="25" Column="4" />
+      <File FileName="Assets\Script\Zelda\ZeldaFollowingCamera.cs" Line="66" Column="27" />
+      <File FileName="Assets\Script\RealWorld\RealCameraFollowing.cs" Line="35" Column="1" />
+      <File FileName="Assets\Script\Zelda\Arrowlink.cs" Line="46" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

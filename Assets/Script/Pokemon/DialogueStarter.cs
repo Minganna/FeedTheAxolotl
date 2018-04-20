@@ -98,6 +98,6 @@ public class DialogueStarter : MonoBehaviour {
 		Poke.SetActive (true);
 		FindObjectOfType<Dialogue> ().DisplayNextSentence ();
 		yield return new WaitForSeconds (1f);
-		SceneManager.LoadScene ("Pokemon");
+		SceneManager.LoadScene ("BubbleBobble");
 	}
 }

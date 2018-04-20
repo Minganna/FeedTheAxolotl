@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 4873ad4e21c716f43b4ba0c08d218e7c
+timeCreated: 1523463472
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder_001
+    100004: Plane
+    100006: Plane_001
+    100008: Plane_MeshPart0
+    100010: Plane_MeshPart1
+    100012: Plane_MeshPart10
+    100014: Plane_MeshPart11
+    100016: Plane_MeshPart12
+    100018: Plane_MeshPart13
+    100020: Plane_MeshPart14
+    100022: Plane_MeshPart15
+    100024: Plane_MeshPart16
+    100026: Plane_MeshPart17
+    100028: Plane_MeshPart18
+    100030: Plane_MeshPart19
+    100032: Plane_MeshPart2
+    100034: Plane_MeshPart20
+    100036: Plane_MeshPart21
+    100038: Plane_MeshPart22
+    100040: Plane_MeshPart23
+    100042: Plane_MeshPart24
+    100044: Plane_MeshPart25
+    100046: Plane_MeshPart26
+    100048: Plane_MeshPart3
+    100050: Plane_MeshPart4
+    100052: Plane_MeshPart5
+    100054: Plane_MeshPart6
+    100056: Plane_MeshPart7
+    100058: Plane_MeshPart8
+    100060: Plane_MeshPart9
+    400000: //RootNode
+    400002: Cylinder_001
+    400004: Plane
+    400006: Plane_001
+    400008: Plane_MeshPart0
+    400010: Plane_MeshPart1
+    400012: Plane_MeshPart10
+    400014: Plane_MeshPart11
+    400016: Plane_MeshPart12
+    400018: Plane_MeshPart13
+    400020: Plane_MeshPart14
+    400022: Plane_MeshPart15
+    400024: Plane_MeshPart16
+    400026: Plane_MeshPart17
+    400028: Plane_MeshPart18
+    400030: Plane_MeshPart19
+    400032: Plane_MeshPart2
+    400034: Plane_MeshPart20
+    400036: Plane_MeshPart21
+    400038: Plane_MeshPart22
+    400040: Plane_MeshPart23
+    400042: Plane_MeshPart24
+    400044: Plane_MeshPart25
+    400046: Plane_MeshPart26
+    400048: Plane_MeshPart3
+    400050: Plane_MeshPart4
+    400052: Plane_MeshPart5
+    400054: Plane_MeshPart6
+    400056: Plane_MeshPart7
+    400058: Plane_MeshPart8
+    400060: Plane_MeshPart9
+    2300000: Cylinder_001
+    2300002: Plane_001
+    2300004: Plane_MeshPart0
+    2300006: Plane_MeshPart1
+    2300008: Plane_MeshPart10
+    2300010: Plane_MeshPart11
+    2300012: Plane_MeshPart12
+    2300014: Plane_MeshPart13
+    2300016: Plane_MeshPart14
+    2300018: Plane_MeshPart15
+    2300020: Plane_MeshPart16
+    2300022: Plane_MeshPart17
+    2300024: Plane_MeshPart18
+    2300026: Plane_MeshPart19
+    2300028: Plane_MeshPart2
+    2300030: Plane_MeshPart20
+    2300032: Plane_MeshPart21
+    2300034: Plane_MeshPart22
+    2300036: Plane_MeshPart23
+    2300038: Plane_MeshPart24
+    2300040: Plane_MeshPart25
+    2300042: Plane_MeshPart26
+    2300044: Plane_MeshPart3
+    2300046: Plane_MeshPart4
+    2300048: Plane_MeshPart5
+    2300050: Plane_MeshPart6
+    2300052: Plane_MeshPart7
+    2300054: Plane_MeshPart8
+    2300056: Plane_MeshPart9
+    3300000: Cylinder_001
+    3300002: Plane_001
+    3300004: Plane_MeshPart0
+    3300006: Plane_MeshPart1
+    3300008: Plane_MeshPart10
+    3300010: Plane_MeshPart11
+    3300012: Plane_MeshPart12
+    3300014: Plane_MeshPart13
+    3300016: Plane_MeshPart14
+    3300018: Plane_MeshPart15
+    3300020: Plane_MeshPart16
+    3300022: Plane_MeshPart17
+    3300024: Plane_MeshPart18
+    3300026: Plane_MeshPart19
+    3300028: Plane_MeshPart2
+    3300030: Plane_MeshPart20
+    3300032: Plane_MeshPart21
+    3300034: Plane_MeshPart22
+    3300036: Plane_MeshPart23
+    3300038: Plane_MeshPart24
+    3300040: Plane_MeshPart25
+    3300042: Plane_MeshPart26
+    3300044: Plane_MeshPart3
+    3300046: Plane_MeshPart4
+    3300048: Plane_MeshPart5
+    3300050: Plane_MeshPart6
+    3300052: Plane_MeshPart7
+    3300054: Plane_MeshPart8
+    3300056: Plane_MeshPart9
+    4300000: Cylinder_001
+    4300002: Plane_001
+    4300004: Plane_MeshPart0
+    4300006: Plane_MeshPart1
+    4300008: Plane_MeshPart2
+    4300010: Plane_MeshPart3
+    4300012: Plane_MeshPart4
+    4300014: Plane_MeshPart5
+    4300016: Plane_MeshPart6
+    4300018: Plane_MeshPart7
+    4300020: Plane_MeshPart8
+    4300022: Plane_MeshPart9
+    4300024: Plane_MeshPart10
+    4300026: Plane_MeshPart11
+    4300028: Plane_MeshPart12
+    4300030: Plane_MeshPart13
+    4300032: Plane_MeshPart14
+    4300034: Plane_MeshPart15
+    4300036: Plane_MeshPart16
+    4300038: Plane_MeshPart17
+    4300040: Plane_MeshPart18
+    4300042: Plane_MeshPart19
+    4300044: Plane_MeshPart20
+    4300046: Plane_MeshPart21
+    4300048: Plane_MeshPart22
+    4300050: Plane_MeshPart23
+    4300052: Plane_MeshPart24
+    4300054: Plane_MeshPart25
+    4300056: Plane_MeshPart26
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

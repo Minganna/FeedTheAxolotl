@@ -66,10 +66,7 @@ public class Dialogue : MonoBehaviour {
 		
 
 		}
-		if (DialogueCount == 0) {
-			
-			DialogueCount = DialogueCount = 1;
-		}
+	
 
 	}
 }

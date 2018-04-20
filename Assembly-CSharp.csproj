@@ -48,10 +48,20 @@
   <ItemGroup>
      <Compile Include="Assets\Script\Breakout\BallBreakout.cs" />
      <Compile Include="Assets\Script\Breakout\Palette.cs" />
+     <Compile Include="Assets\Script\BubbleBobble\Ballappear.cs" />
+     <Compile Include="Assets\Script\BubbleBobble\Bubble.cs" />
+     <Compile Include="Assets\Script\BubbleBobble\BubbleBobblefollowing.cs" />
+     <Compile Include="Assets\Script\BubbleBobble\CilinderMover.cs" />
+     <Compile Include="Assets\Script\BubbleBobble\PokeBallMove.cs" />
+     <Compile Include="Assets\Script\BubbleBobble\twodbubble.cs" />
      <Compile Include="Assets\Script\Donkey\DonkeyCollider.cs" />
      <Compile Include="Assets\Script\Donkey\Donkeyending.cs" />
      <Compile Include="Assets\Script\DuckHunt\DuckTarget.cs" />
      <Compile Include="Assets\Script\DuckHunt\FlyingDuck.cs" />
+     <Compile Include="Assets\Script\Kirby\BubbleKirby.cs" />
+     <Compile Include="Assets\Script\Kirby\FlyingDedede.cs" />
+     <Compile Include="Assets\Script\Kirby\KirbyStar.cs" />
+     <Compile Include="Assets\Script\Kirby\Kirbymovements.cs" />
      <Compile Include="Assets\Script\Machine\Camerafollowmachine.cs" />
      <Compile Include="Assets\Script\Machine\CamerasChanging.cs" />
      <Compile Include="Assets\Script\Machine\Cubedrag.cs" />
@@ -67,7 +77,9 @@
      <Compile Include="Assets\Script\Main\TriggerCollider.cs" />
      <Compile Include="Assets\Script\Main\Triggers2.cs" />
      <Compile Include="Assets\Script\Main\Weight.cs" />
+     <Compile Include="Assets\Script\Menu\AxolotlFacemenu.cs" />
      <Compile Include="Assets\Script\Menu\Button.cs" />
+     <Compile Include="Assets\Script\Menu\GamesRotating.cs" />
      <Compile Include="Assets\Script\Menu\OptionsMenu.cs" />
      <Compile Include="Assets\Script\Pokemon\ActualDialogue.cs" />
      <Compile Include="Assets\Script\Pokemon\Dialogue.cs" />
@@ -76,10 +88,18 @@
      <Compile Include="Assets\Script\Pokemon\Pokeball.cs" />
      <Compile Include="Assets\Script\PunchOut\CubeHitGlassJoe.cs" />
      <Compile Include="Assets\Script\PunchOut\GlassJoe.cs" />
+     <Compile Include="Assets\Script\RealWorld\AxolotlBehaviour.cs" />
+     <Compile Include="Assets\Script\RealWorld\FirstCamera.cs" />
+     <Compile Include="Assets\Script\RealWorld\RealBall.cs" />
+     <Compile Include="Assets\Script\RealWorld\RealCameraFollowing.cs" />
+     <Compile Include="Assets\Script\RealWorld\SnailCamera.cs" />
      <Compile Include="Assets\Script\Tetris\Changesceneaftertetris.cs" />
      <Compile Include="Assets\Script\Tetris\DestroyTetris.cs" />
      <Compile Include="Assets\Script\Tetris\TetrisCameraFollow.cs" />
      <Compile Include="Assets\Script\Tetris\TetrisStart.cs" />
+     <Compile Include="Assets\Script\Zelda\Arrowlink.cs" />
+     <Compile Include="Assets\Script\Zelda\StarZelda.cs" />
+     <Compile Include="Assets\Script\Zelda\ZeldaFollowingCamera.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
