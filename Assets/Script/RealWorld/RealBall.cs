@@ -6,6 +6,7 @@ public class RealBall : MonoBehaviour {
 	public GameObject cilindercamera; 
 	public GameObject Ness1;
 	public GameObject Ness2;
+	public GameObject Object1;
 
 	// Use this for initialization
 	void Start () {
@@ -37,5 +38,9 @@ public class RealBall : MonoBehaviour {
 			GetComponent<Rigidbody> ().AddForce (Vector3.right * 100);
 
 		}
+		if (coll.gameObject.tag == "GlassJoe") {
+			Object1.SetActive (false);
+		}
 	}
+
 }

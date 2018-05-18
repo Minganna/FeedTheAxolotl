@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scene/Kirby.unity
+- path: Assets/_Scene/RealWorldFinal.unity
   isLoaded: 1
   isActive: 1

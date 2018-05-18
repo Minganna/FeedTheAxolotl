@@ -89,10 +89,16 @@
      <Compile Include="Assets\Script\PunchOut\CubeHitGlassJoe.cs" />
      <Compile Include="Assets\Script\PunchOut\GlassJoe.cs" />
      <Compile Include="Assets\Script\RealWorld\AxolotlBehaviour.cs" />
+     <Compile Include="Assets\Script\RealWorld\Basket.cs" />
+     <Compile Include="Assets\Script\RealWorld\Basketcollide.cs" />
+     <Compile Include="Assets\Script\RealWorld\Closedball.cs" />
      <Compile Include="Assets\Script\RealWorld\FirstCamera.cs" />
+     <Compile Include="Assets\Script\RealWorld\Lastballs.cs" />
      <Compile Include="Assets\Script\RealWorld\RealBall.cs" />
+     <Compile Include="Assets\Script\RealWorld\RealBall2.cs" />
      <Compile Include="Assets\Script\RealWorld\RealCameraFollowing.cs" />
      <Compile Include="Assets\Script\RealWorld\SnailCamera.cs" />
+     <Compile Include="Assets\Script\RealWorld\Tube.cs" />
      <Compile Include="Assets\Script\Tetris\Changesceneaftertetris.cs" />
      <Compile Include="Assets\Script\Tetris\DestroyTetris.cs" />
      <Compile Include="Assets\Script\Tetris\TetrisCameraFollow.cs" />

@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Zelda\Arrowlink.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\RealWorld\RealCameraFollowing.cs">
     <Files>
       <File FileName="Assets\Script\BubbleBobble\CilinderMover.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\Pokemon\DialogueStarter.cs" Line="1" Column="1" />
@@ -27,12 +27,20 @@
       <File FileName="Assets\Script\Kirby\Kirbymovements.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\Menu\GamesRotating.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\Kirby\FlyingDedede.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Kirby\KirbyStar.cs" Line="41" Column="4" />
+      <File FileName="Assets\Script\Kirby\KirbyStar.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\RealWorld\AxolotlBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Zelda\StarZelda.cs" Line="25" Column="4" />
-      <File FileName="Assets\Script\Zelda\ZeldaFollowingCamera.cs" Line="66" Column="27" />
-      <File FileName="Assets\Script\RealWorld\RealCameraFollowing.cs" Line="35" Column="1" />
-      <File FileName="Assets\Script\Zelda\Arrowlink.cs" Line="46" Column="31" />
+      <File FileName="Assets\Script\Zelda\StarZelda.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Zelda\ZeldaFollowingCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\RealWorld\RealCameraFollowing.cs" Line="70" Column="20" />
+      <File FileName="Assets\Script\Zelda\Arrowlink.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\RealWorld\RealBall2.cs" Line="32" Column="2" />
+      <File FileName="Assets\Script\RealWorld\Tube.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\RealWorld\Closedball.cs" Line="26" Column="29" />
+      <File FileName="Assets\Script\RealWorld\FirstCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\RealWorld\RealBall.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\RealWorld\Basket.cs" Line="60" Column="27" />
+      <File FileName="Assets\Script\RealWorld\Basketcollide.cs" Line="30" Column="30" />
+      <File FileName="Assets\Script\RealWorld\Lastballs.cs" Line="43" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
