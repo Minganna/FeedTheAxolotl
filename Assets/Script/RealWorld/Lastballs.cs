@@ -9,10 +9,12 @@ public class Lastballs : MonoBehaviour {
 	public GameObject Scizzor;
 	public GameObject Object6;
 	public GameObject WormsStopper;
+	public AudioClip RollingSound;
+	private AudioSource source;
 
 	// Use this for initialization
 	void Start () {
-		
+		source = GetComponent <AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -29,6 +31,7 @@ public class Lastballs : MonoBehaviour {
 		}
 		else if(coll.gameObject.tag=="Respawn"){
 			Destroy (coll.collider.gameObject);
+			source.Stop ();
 			Scizzor.SetActive (true);
 			StartCoroutine (Ending ());
 	}

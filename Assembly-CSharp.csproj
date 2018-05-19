@@ -54,6 +54,7 @@
      <Compile Include="Assets\Script\BubbleBobble\CilinderMover.cs" />
      <Compile Include="Assets\Script\BubbleBobble\PokeBallMove.cs" />
      <Compile Include="Assets\Script\BubbleBobble\twodbubble.cs" />
+     <Compile Include="Assets\Script\Credits\Ending.cs" />
      <Compile Include="Assets\Script\Donkey\DonkeyCollider.cs" />
      <Compile Include="Assets\Script\Donkey\Donkeyending.cs" />
      <Compile Include="Assets\Script\DuckHunt\DuckTarget.cs" />
@@ -93,6 +94,7 @@
      <Compile Include="Assets\Script\RealWorld\Basketcollide.cs" />
      <Compile Include="Assets\Script\RealWorld\Closedball.cs" />
      <Compile Include="Assets\Script\RealWorld\FirstCamera.cs" />
+     <Compile Include="Assets\Script\RealWorld\LastButtons.cs" />
      <Compile Include="Assets\Script\RealWorld\Lastballs.cs" />
      <Compile Include="Assets\Script\RealWorld\RealBall.cs" />
      <Compile Include="Assets\Script\RealWorld\RealBall2.cs" />

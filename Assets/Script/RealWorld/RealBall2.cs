@@ -5,10 +5,12 @@ using UnityEngine;
 public class RealBall2 : MonoBehaviour {
 
 	public GameObject closedball;
+	public AudioClip RollingSound;
+	private AudioSource source;
 
 	// Use this for initialization
 	void Start () {
-		
+		source = GetComponent <AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -20,6 +22,7 @@ public class RealBall2 : MonoBehaviour {
 	{
 		if (coll.gameObject.tag == "GlassJoe") {
 			GetComponent<Rigidbody> ().AddForce (Vector3.right * 500);
+			source.Play ();
 
 		}
 		if (coll.gameObject.tag == "Respawn") {

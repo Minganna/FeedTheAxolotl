@@ -22,13 +22,15 @@ public class DialogueStarter : MonoBehaviour {
 	public GameObject MarowakStopper;
 	public GameObject Poke;
 	public GameObject marowakstopper2;
+	public AudioClip ShootSound;
+	private AudioSource source;
 
 
 	// Use this for initialization
 	void Start () {
 
 			
-	
+		source=GetComponent<AudioSource> ();
 
 
 	}
@@ -87,6 +89,7 @@ public class DialogueStarter : MonoBehaviour {
 		Text.SetActive (true);
 		FindObjectOfType<Dialogue> ().DisplayNextSentence ();
 		yield return new WaitForSeconds (0.5f);
+		source.PlayOneShot (ShootSound);
 		Shoot.SetActive (true);
 		yield return new WaitForSeconds (0.1f);
 		Shoot.SetActive (false);

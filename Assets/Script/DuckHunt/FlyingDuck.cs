@@ -8,9 +8,11 @@ public class FlyingDuck : MonoBehaviour {
 	public GameObject Shoot;
 	public GameObject Target;
 	public GameObject Dog;
+	public AudioClip ShootSound;
+	private AudioSource source;
 	// Use this for initialization
 	void Start () {
-		
+		source = GetComponent <AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -27,7 +29,9 @@ public class FlyingDuck : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D other)
 	{
+		source.PlayOneShot (ShootSound);
 		Shoot.SetActive (true);
+
 		StartCoroutine(Shootstop());
 	}
 

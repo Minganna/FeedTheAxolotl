@@ -7,10 +7,13 @@ public class RealBall : MonoBehaviour {
 	public GameObject Ness1;
 	public GameObject Ness2;
 	public GameObject Object1;
+	public AudioClip RollingSound;
+	private AudioSource source;
+	public AudioClip Domino;
 
 	// Use this for initialization
 	void Start () {
-		
+		source = GetComponent <AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -29,6 +32,7 @@ public class RealBall : MonoBehaviour {
 		yield return new WaitForSeconds (1f);
 		Ness1.SetActive (false);
 		Ness2.SetActive (true);
+		source.Play ();
 		GetComponent<Rigidbody> ().AddForce (Vector3.forward *20);
 	}
 
@@ -39,8 +43,17 @@ public class RealBall : MonoBehaviour {
 
 		}
 		if (coll.gameObject.tag == "GlassJoe") {
-			Object1.SetActive (false);
+			source.Stop ();
+			StartCoroutine (WaitforDominoes ());
+			source.PlayOneShot (Domino);
+
 		}
 	}
 
+
+	IEnumerator WaitforDominoes()
+	{
+		yield return new WaitForSeconds (3f);
+		Object1.SetActive (false);
+	}
 }
